@@ -22,7 +22,7 @@ public class ArkhamHorrorClientApplication extends Application {
     public void start(Stage stage) throws Exception {
         FXMLLoader fxmlLoader = new FXMLLoader(ArkhamHorrorClientApplication.class.getResource("/views/menu.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 500, 500);
-        stage.setTitle("Hello!");
+        stage.setTitle("Arkham Horror!");
         stage.setScene(scene);
         stage.setMaximized(true);
         stage.show();
